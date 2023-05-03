@@ -10,8 +10,8 @@ public class FunRestController {
 
 	// expose "/" that return "Hello World"
 	
-	@GetMapping("/")
-	public String sayHello() {
-		return "Helllo world time on server is ";
-	}
+	@RequestMapping("/")
+   	 String helloWorld() {
+        return "5. please visit my website learning-ocean.com";
+    }
 }
