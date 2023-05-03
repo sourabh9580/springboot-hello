@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.0.2</version>
-		<packaging>war</packaging>
+		
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.luv2code.springboot.demo</groupId>
@@ -17,6 +17,9 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	
+	<packaging>war</packaging>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
