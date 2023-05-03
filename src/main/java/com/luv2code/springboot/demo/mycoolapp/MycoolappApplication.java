@@ -16,5 +16,5 @@ public class MycoolappApplication {
 	@RequestMapping("/")
    	String helloWorld() {
         return "5. please visit my website learning-ocean.com";
-
+	}
 }
