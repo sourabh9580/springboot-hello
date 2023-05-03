@@ -12,6 +12,6 @@ public class FunRestController {
 	
 	@GetMapping("/")
 	public String sayHello() {
-		return "Helllo world time on server is " + LocalDateTime.now();
+		return "Helllo world time on server is ";
 	}
 }
