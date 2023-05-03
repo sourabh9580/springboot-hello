@@ -10,7 +10,7 @@ public class FunRestController {
 
 	// expose "/" that return "Hello World"
 	
-	@RequestMapping("/")
+	@GetMapping("/")
 	public String sayHello() {
 		return "Helllo world time on server is " + LocalDateTime.now();
 	}
